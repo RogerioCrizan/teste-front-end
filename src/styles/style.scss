@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:300,400&display=swap");
+@import "../../node_modules/@glidejs/glide/src/assets/sass/glide.core";
+@import "../../node_modules/@glidejs/glide/src/assets/sass/glide.theme";
+@import "utils/variables";
+@import "utils/functions";
+@import "utils/media-queries";
+@import "utils/reset";
+@import "helpers/helpers";
+@import "main";
+@import "views/home";
+@import "components/header";
+@import "components/hero";
+@import "components/about";
+@import "components/brands";
+@import "components/categories";
+@import "components/footer";

@@ -1,0 +1,142 @@
+.footer {
+  &-top {
+    &-items {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}
+
+.footer-container {
+  background-color: #041E50;
+  padding: 120px 0 80px;
+}
+
+.footer-top-items-item-block-cont {
+  h2 {
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 1.1px;
+    margin-bottom: 15px;
+    display: block;
+    text-transform: uppercase;
+  }
+
+  a {
+    font-size: 12px;
+    font-weight: 400;
+    color: white;
+    display: block;
+    text-transform: uppercase;
+    margin-bottom: 2px;
+  }
+
+  &-rede {
+    display: flex;
+
+    img {
+      width: 15px;
+      height: 15px;
+      margin-right: 17px;
+    }
+  }
+}
+
+.footer-top-items-item-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.footer-top-items-item-block-cont-payment {
+  img {
+    width: 107px;
+  }
+}
+
+.footer-top-items-item-block-cont-security {
+  img {
+    width: 145px;
+  }
+}
+
+.footer-form {
+  background: white;
+  height: 100%;
+  padding: 30px 25px;
+  border-radius: 5px;
+
+  &-content {
+    &-title {
+      font-size: 16px;
+      display: block;
+      color: #041E50;
+      text-align: center;
+      text-transform: uppercase;
+
+      strong {
+        font-weight: 700;
+      }
+    }
+
+    &-text {
+      display: block;
+      color: #041E50;
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 12px;
+      font-weight: 400;
+      margin-bottom: 15px;
+    }
+
+    &__button {
+      color: #041E50;
+      width: 110px;
+      border: 1px solid #041E50;
+      padding: 10px 0;
+      border-radius: 5px;
+    }
+
+    &__input {
+      text-transform: uppercase;
+      display: block;
+      color: #041E50;
+      border: none;
+      border-bottom: 1px solid #041E50;
+      padding-left: 13px;
+      padding-bottom: 7px;
+      margin-bottom: 19px;
+      width: 100%;
+
+      &::placeholder {
+        color: #041E50;
+      }
+    }
+  }
+}
+
+.footer-bottom {
+  background: white;
+  padding: 16px 0;
+
+  ul {
+    display: flex;
+
+    li {
+      display: flex;
+      align-items: center;
+
+      p {
+        color: #010101;
+        font-size: 10px;
+        width: 61%;
+      }
+
+      img {
+        margin-right: 30px;
+      }
+    }
+  }
+}
